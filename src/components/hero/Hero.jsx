@@ -1,17 +1,15 @@
-import HeroText from '../heroText/HeroText';
-import HeroText from '../searchBar/SearchBar';
-import PopularServices from '../popularService/PopularService';
+import HeroText from "../heroText/HeroText";
+import SearchBar from "../searchBar/SearchBar";
+import PopularServices from "../popularService/PopularService";
 
-
-const Hero = ()=>{
-    return(
-        <>
-            <HeroText />
-            <SearchBar />
-            <PopularServices />
-        </>
-
-    )
-}
+const Hero = () => {
+	return (
+		<>
+			<HeroText />
+			<SearchBar />
+			<PopularServices />
+		</>
+	);
+};
 
 export default Hero;
