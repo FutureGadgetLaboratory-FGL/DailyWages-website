@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Scada:wght@400;700&display=swap');
+
+
+*{
+    font-family: ;
+}
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background: rgba(217,217,217,30);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
