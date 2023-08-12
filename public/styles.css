@@ -1,10 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Scada:wght@400;700&display=swap');
 
-body {
+* {
     margin: 0;
     padding: 0;
-    height: 100vh;
-    background: rgba(217, 217, 217, 30);
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
+
+body {
+
+    background: rgba(235, 235, 235, 30);
+
+}
+
+/* font-family: 'Montserrat',sans-serif;
+font-family: 'Poppins',sans-serif;
+font-family: 'Scada',
+sans-serif; */

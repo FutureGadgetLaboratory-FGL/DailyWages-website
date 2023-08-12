@@ -1,47 +1,112 @@
-/* appBar
-.appBar {
+* {
+    box-sizing: border-box;
+}
+
+nav {
+    max-width: 100vw;
+    background-color: white;
+    box-shadow: 0 1px 10px rgba(134, 134, 134, 0.299);
+    z-index: 10;
+}
+
+#logo {
+    height: 3.7rem;
+}
+
+.container {
+    max-width: 80vw;
+    margin: 0 auto;
     display: flex;
-    padding: 15px 20px;
+    align-items: center;
     justify-content: space-between;
-    align-items: center;
-    align-self: stretch;
 }
 
-
-.appBar span {
-    flex: 1 0 0;
-}
-
-.appBar span:nth-child(2) {
-    text-align: center;
-} */
-
-/* logo */
-
-/* profileMenu */
-/* .profileMenu {
-    white-space: nowrap;
+.menu {
+    margin: 0 1.2rem;
+    list-style: none;
     display: flex;
-
+    font-size: 1.1rem;
     align-items: center;
-    gap: 40px;
-} */
-
-nav{
-    width: 100%;
-    background: white;
-
-}
-.container{
-   
-    display: flex;
-    height: 60px;
-    margin: 0 100px;
     justify-content: center;
-    align-items: center;
+    font-weight: 500;
+    gap: 1.5rem;
 }
 
-.navLinks{
-    display: flex;
-    gap:20px;
+.menu li {
+    padding: 6px 6px;
+    cursor: pointer;
+    border-bottom: 2px solid transparent;
+    transition: 0.2s;
+}
+
+.menu li:hover {
+    border-bottom: 2px solid black;
+}
+
+.account a {
+    padding: 0.3rem 1rem;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 1.1rem;
+    font-weight: 500;
+    cursor: pointer;
+    border: 1px solid rgb(133, 133, 133);
+    border-radius: 10px;
+}
+
+.account a:hover {
+    box-shadow: 0 2px 5px rgba(160, 160, 160, 0.315);
+}
+
+.toggleMenu {
+    height: 20px;
+    display: none;
+}
+
+.accountIcon {
+    height: 30px;
+    display: none;
+}
+
+@media only screen and (max-width: 950px) {
+    .menu {
+        display: none;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .toggleMenu {
+        order: -1;
+        display: inline;
+    }
+
+    .accountIcon {
+        display: inline;
+    }
+
+    .account {
+        display: none;
+    }
+
+    .showitem>li {
+        width: fit-content;
+    }
+
+    .showitem {
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+        width: 100vw;
+        position: absolute;
+        top: 3.7rem;
+        left: 0;
+        padding: 20px;
+        border-top: 1px solid black;
+        
+    }
+
 }
