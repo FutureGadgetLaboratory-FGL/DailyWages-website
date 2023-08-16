@@ -3,4 +3,13 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    background-image: url('../../../public/images/background.jpg');
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: 36vh;
+    background-size: 60rem;
+    
 }
+

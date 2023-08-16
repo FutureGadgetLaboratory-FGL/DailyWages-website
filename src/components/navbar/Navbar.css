@@ -3,10 +3,13 @@
 }
 
 nav {
-    max-width: 100vw;
+    width: 100vw;
     background-color: white;
     box-shadow: 0 1px 10px rgba(134, 134, 134, 0.299);
-    z-index: 10;
+    position: absolute;
+    top: 0;
+    left: 0;
+    
 }
 
 #logo {
