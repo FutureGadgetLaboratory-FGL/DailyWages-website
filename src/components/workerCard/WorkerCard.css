@@ -1,0 +1,70 @@
+.fa-star{
+    color:yellow;
+}
+.iconsRating>i{
+    margin-right:5px;
+}
+.workerPfp>img{
+    border-radius: 50%;
+    border: 1px solid black;
+    height:80px;
+    width:80px;
+}
+.cardContainer{
+    margin:50px;
+    background:black;
+    border-radius: 30px;
+    display:flex;
+    flex-direction: column;
+    padding:20px;
+    color:white;
+    max-width: 500px;
+}
+.cardHeader{
+    display:flex;
+}
+.workerDetails{
+    display:flex;
+    flex-direction: column;
+    width:90%;
+    margin:0px 20px;
+}
+.workerReview{
+    display:flex;
+    justify-content: space-between;
+    font-size: small;
+}
+.workerReview>p{
+    margin-right:30px;
+}
+.workerDetails>p{
+    font-size: larger;
+}
+.cardContent{
+    display:flex;
+    flex-direction: column;
+    margin:20px;
+    width:80%;
+}
+.cardContent>p{
+    text-decoration: underline;
+}
+.cardContent>ul{
+    display:flex;
+    margin-left:20px;
+}
+.cardContent>ul>:first-child{
+    margin-right:auto;
+}
+
+
+.contactButton{
+    background-color: rgb(98, 98, 255);
+    color:white;
+    padding:10px 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin:20px;
+    border-radius:20px;
+    border:none;
+    font-size:medium
+}
