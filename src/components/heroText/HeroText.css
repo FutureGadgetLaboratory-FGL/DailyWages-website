@@ -1,3 +1,19 @@
-/* .con{
-    height: 120vh;
-} */
+.hero-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+    color: rgb(28, 28, 28);
+}
+
+.hero-container>h1{
+    font-size: 70px;
+    font-weight: 700;
+
+}
+
+.hero-container>h3{
+    font-size: 30px;
+    font-weight: 400;
+}
