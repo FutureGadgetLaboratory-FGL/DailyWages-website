@@ -1,6 +1,6 @@
-.popular-services-container{
+.popular-services-container {
     padding: 20px 54px;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.94);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -10,7 +10,7 @@
 
 }
 
-.popular-services-container>h2{
+.popular-services-container>h2 {
     text-transform: uppercase;
     font-size: 26px;
     font-weight: 600;
@@ -18,20 +18,23 @@
 
 }
 
-.services{
+.services {
     display: flex;
     gap: 40px;
     margin-bottom: 20px;
 }
 
-.card{
+.card {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-.card>img{
+.card>img {
     height: 130px;
     width: 130px;
     border: 1px solid rgba(0, 0, 0, 0.326);
     border-radius: 10px;
+    margin-bottom: 5px;
 }
