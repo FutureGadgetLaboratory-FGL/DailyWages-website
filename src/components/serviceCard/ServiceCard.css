@@ -1,0 +1,50 @@
+.cardContainer{
+    border-radius: 20px;
+    display:flex;
+    padding:20px;
+    border:1px solid black;
+    margin:30px;
+    width: 800px;
+    min-width: 800px;
+    box-shadow: -10px 20px 20px lightslategray;
+}
+.cardHeader{
+    width:70%;
+    color:black;
+    display:flex;
+    flex-direction: column;
+    margin:20px;
+}
+.serviceTitle{
+    font-size: larger;
+}
+.cardHeader>ul{
+    font-size: xx-small;
+    display:flex;
+    min-width: 0;
+    
+}
+.cardHeader>ul>li{
+    border:1px solid black;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-right:20px;
+    padding:5px 15px;
+    background-color: rgb(86, 218, 255);
+    width:fit-content;
+    text-align: center;
+    justify-content: center;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+.serviceImg{
+    margin:20px;
+}
+
+.serviceImg>img{
+    height:150px;
+    width:150px;
+    border-radius: 10px;
+    border:1px solid black;
+}
