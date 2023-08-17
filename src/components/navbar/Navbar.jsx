@@ -18,12 +18,12 @@ const Navbar = () => {
 			<div className="container">
 				<img src="./images/Wages.png" alt="logo" id="logo" />
 				<ul className="menu">
-					<li>HOME</li>
+					<li><a href="/" >HOME</a></li>
 					<li>PROVIDE A SERVICE</li>
 					<li>WORKS & SERVICES</li>
 				</ul>
 				<div className="account">
-					<a href="/">MY ACCOUNT</a>
+					<a href="/auth">MY ACCOUNT</a>
 				</div>
 				<img src="./images/menu.png" onClick={toggleMenuHandler} alt="toggle menu" className="toggleMenu" />
 				<img src="./images/account.png" alt="toggle menu" className="accountIcon" />

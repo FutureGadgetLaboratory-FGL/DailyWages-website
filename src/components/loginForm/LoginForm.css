@@ -1,0 +1,26 @@
+.login-container {
+    margin: 0 auto;
+    padding: 0;
+    width: 50vw;
+    box-shadow: 0 5px 20px 5px #0000003e;
+    border-radius: 4px;
+}
+
+.colored {
+    background: #d3d3d3;
+}
+
+.auth-type {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 0px;
+}
+
+.auth-type button {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
