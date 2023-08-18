@@ -1,32 +1,33 @@
 import React from "react";
 
-import "./Navbar.css";
+import styles from "./Navbar.module.css";
 
 const Navbar = () => {
+	const {menu: menuClass, showitem} = styles;
 	const toggleMenuHandler = () => {
-		const menu = document.querySelector(".menu");
+		const menu = document.querySelector(`.${menuClass}`);
 		const classes = Object.values(menu.classList);
-		if (classes.includes("showitem")) {
-			menu.classList.remove("showitem");
+		if (classes.includes(showitem)) {
+			menu.classList.remove(showitem);
 		} else {
-			menu.classList.add("showitem");
+			menu.classList.add(showitem);
 		}
 	};
 
 	return (
 		<nav>
-			<div className="container">
-				<img src="./images/Wages.png" alt="logo" id="logo" />
-				<ul className="menu">
+			<div className={styles.container}>
+				<img src="./images/Wages.png" alt="logo" id={styles.logo} />
+				<ul className={styles.menu}>
 					<li>HOME</li>
 					<li>PROVIDE A SERVICE</li>
 					<li>WORKS & SERVICES</li>
 				</ul>
-				<div className="account">
+				<div className={styles.account}>
 					<a href="/">MY ACCOUNT</a>
 				</div>
-				<img src="./images/menu.png" onClick={toggleMenuHandler} alt="toggle menu" className="toggleMenu" />
-				<img src="./images/account.png" alt="toggle menu" className="accountIcon" />
+				<img src="./images/menu.png" onClick={toggleMenuHandler} alt="toggle menu" className={styles.toggleMenu} />
+				<img src="./images/account.png" alt="toggle menu" className={styles.accountIcon} />
 			</div>
 		</nav>
 	);
