@@ -3,13 +3,13 @@ import Navbar from '../../components/navbar/Navbar'
 import LoginForm from '../../components/loginForm/LoginForm'
 import Footer from '../../components/footer/Footer';
 
-import styles from './LoginPage.css';
+import './LoginPage.css';
 
 const LoginPage = () => {
     return (
         <>
             <Navbar />
-            <div className={styles.form}>
+            <div className='form'>
                 <LoginForm />
             </div>
             <Footer />
