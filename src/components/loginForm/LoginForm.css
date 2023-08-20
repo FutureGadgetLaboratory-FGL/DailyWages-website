@@ -1,4 +1,4 @@
-.loginContainer {
+.login-container {
     margin: 0 auto;
     height: 70vh;
     padding: 0;
@@ -15,14 +15,14 @@
     background: #d3d3d3;
 }
 
-.authType {
+.auth-type {
     display: flex;
     justify-content: space-between;
     width: 100%;
     margin-top: 0px;
 }
 
-.authType button {
+.auth-type button {
     font-style: bold;
     flex: 1;
     padding: 10px;
@@ -33,12 +33,12 @@
     font-size: x-large;
 }
 
-.authForm {
+.auth-form {
     font-size: larger;
     padding: 5% 10%;
 }
 
-.authForm input {
+.auth-form input {
     outline: none;
     border-width: 0.05px;
     border-color: #b7b7b7;
@@ -49,32 +49,32 @@
     margin-bottom: 1.5em;
 }
 
-.mobNoInput {
+.mob-no-input {
     display: flex;
     align-items: center;
     width: 100%;
 }
 
-.mobNoInput input:nth-child(1) {
+.mob-no-input input:nth-child(1) {
     width: 3em;
     border-right: none;
     border-top-right-radius: 0;
     border-bottom-right-radius: 0;
 }
 
-.mobNoInput input:nth-child(2) {
+.mob-no-input input:nth-child(2) {
     border-left: none;
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
 }
 
-.loginOptions {
+.login-options {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.loginButton {
+.login-button {
     background-color: #3170E9;
     color: white;
     border: none;
@@ -86,7 +86,7 @@
     transition: background-color 0.3s ease;
 }
 
-.loginButton:hover {
+.login-button:hover {
     background-color: #2980b9;
 }
 
@@ -96,7 +96,7 @@
     margin: 20px 0;
 }
 
-.googleSigninButton {
+.google-signin-button {
     display: flex;
     align-items: center;
     background-color: #ffffff;
@@ -110,7 +110,7 @@
     transition: background-color 0.3s ease;
 }
 
-.googleIcon {
+.google-icon {
     width: 30px;
     height: 30px;
     margin-right: 10px;
