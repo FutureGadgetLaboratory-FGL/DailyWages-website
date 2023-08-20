@@ -9,7 +9,6 @@ const Hero = () => {
 			<HeroText />
 			<SearchBar />
 			<PopularServices />
-			<Footer />
 		</>
 	);
 };
