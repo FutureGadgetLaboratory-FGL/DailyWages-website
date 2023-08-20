@@ -118,3 +118,17 @@ nav {
     }
 
 }
+
+@media only screen and (max-width: 700px) {
+    #logo{
+        height: 2.7rem;
+    }
+
+    .toggleMenu{
+        height: 15px;
+    }
+
+        .accountIcon {
+            height: 20px;
+        }
+}
