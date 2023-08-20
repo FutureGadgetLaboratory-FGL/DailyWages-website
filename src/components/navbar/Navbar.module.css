@@ -6,10 +6,10 @@ nav {
     width: 100vw;
     background-color: white;
     box-shadow: 0 1px 10px rgba(134, 134, 134, 0.299);
-    position: sticky;
+    position: absolute;
     top: 0;
     left: 0;
-    
+
 }
 
 #logo {
@@ -40,11 +40,6 @@ nav {
     cursor: pointer;
     border-bottom: 2px solid transparent;
     transition: 0.2s;
-}
-
-.menu a {
-    text-decoration: none;
-    color: #000;
 }
 
 .menu li:hover {
@@ -114,7 +109,21 @@ nav {
         left: 0;
         padding: 20px;
         border-top: 1px solid black;
-        
+
     }
 
+}
+
+@media only screen and (max-width: 700px) {
+    #logo {
+        height: 2.7rem;
+    }
+
+    .toggleMenu {
+        height: 15px;
+    }
+
+    .accountIcon {
+        height: 20px;
+    }
 }
