@@ -1,0 +1,23 @@
+footer{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    bottom: 0;
+}
+.footer-container{
+    
+    display: flex;  
+    align-items: center;
+    justify-content: center;
+    padding: 5px 0;
+    border-radius: 16px 16px 0 0;
+    gap: 40px;
+    width: 60vw;
+    font-size: 12px ;
+    background-color: rgba(185, 185, 185, 0.523);
+}
+footer>h4{
+    display: inline;
+}

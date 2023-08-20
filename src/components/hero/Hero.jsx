@@ -1,6 +1,7 @@
 import HeroText from "../heroText/HeroText";
 import SearchBar from "../searchBar/SearchBar";
 import PopularServices from "../popularService/PopularService";
+import Footer from '../footer/Footer';
 
 const Hero = () => {
 	return (
@@ -8,6 +9,7 @@ const Hero = () => {
 			<HeroText />
 			<SearchBar />
 			<PopularServices />
+			<Footer />
 		</>
 	);
 };
