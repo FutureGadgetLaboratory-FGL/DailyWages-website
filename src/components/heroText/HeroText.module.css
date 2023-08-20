@@ -1,4 +1,4 @@
-.hero-container{
+.hero-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -7,13 +7,44 @@
     color: rgb(28, 28, 28);
 }
 
-.hero-container>h1{
-    font-size: 70px;
+.hero-container>h1 {
+    font-size: 4.4rem;
     font-weight: 700;
 
 }
 
-.hero-container>h3{
-    font-size: 30px;
+.hero-container>h3 {
+    font-size: 1.8rem;
     font-weight: 400;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .hero-container>h1 {
+        font-size: 3.4rem;
+    }
+
+    .hero-container>h3 {
+        font-size: 1.4rem;
+    }
+}
+
+@media only screen and (max-width: 530px) {
+    .hero-container>h1 {
+        font-size: 2.5rem;
+    }
+
+    .hero-container>h3 {
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (max-width: 390px) {
+    .hero-container>h1 {
+        font-size: 1.9rem;
+    }
+
+    .hero-container>h3 {
+        font-size: .7rem;
+    }
 }
