@@ -1,53 +1,17 @@
-
-.home {
-    position: absolute;
-    z-index: -1;
-    height: 100%;
+.home{
+    display: flex;
+    position: relative;
+    min-height: calc(100vh - 60px - 60px);
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
     width: 100vw;
     overflow-y: auto;
     background-image: url('../../../public/images/background.jpg');
     background-repeat: no-repeat;
     background-position-x: center;
-    background-position-y: 30vh;
-    background-size: 65rem;
-
+    background-position-y: 36vh;
+    background-size: 60rem;
+    
 }
 
-@media only screen and (max-width: 900px) {
-    .home {
-        background-size: 40rem;
-        background-position-y: 34vh;
-       
-    }
-}
-
-@media only screen and (max-width: 650px) {
-    .home {
-        background-size: 30rem;
-        background-position-y: 30vh;
-
-    }
-}
-
-@media only screen and (max-width: 560px) {
-    .home {
-        background-size: 22rem;
-        background-position-y: 31vh;
-
-    }
-}
-
-@media only screen and (max-width: 390px) {
-    .home {
-        background-size: 20rem;
-        background-position-y: 25vh;
-
-    }
-}
-
-@media only screen and (max-width: 320px) {
-    .home {
-        background-position-y: 24vh;
-
-    }
-}
