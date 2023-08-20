@@ -1,8 +1,10 @@
+
 .home {
     position: absolute;
     z-index: -1;
     height: 100%;
     width: 100vw;
+    overflow-y: auto;
     background-image: url('../../../public/images/background.jpg');
     background-repeat: no-repeat;
     background-position-x: center;

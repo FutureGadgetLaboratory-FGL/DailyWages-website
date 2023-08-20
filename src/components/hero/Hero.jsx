@@ -9,6 +9,7 @@ const Hero = () => {
 			<SearchBar />
 			<PopularServices />
 		</div>
+
 	);
 };
 
