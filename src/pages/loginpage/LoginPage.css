@@ -1,6 +1,8 @@
 .form {
     display: flex;
     align-items: center;
+    position: relative;
     width: 100vw;
-    
+    height: calc(100vh - 60px - 60px);
+    margin: auto;
 }

@@ -1,9 +1,9 @@
 .login-container {
     margin: 0 auto;
-    height: 60vh;
+    height: 70vh;
     padding: 0;
     width: 30vmax;
-    min-width: 500px;
+    min-width: 400px;
     color: #4b4b4b;
     box-shadow: 0 5px 20px 5px #0000003e;
     border-radius: 4px;
@@ -98,6 +98,7 @@
 
 .google-signin-button {
     display: flex;
+    align-items: center;
     background-color: #ffffff;
     color: #030303;
     border: none;

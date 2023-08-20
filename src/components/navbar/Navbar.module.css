@@ -6,7 +6,7 @@ nav {
     width: 100vw;
     background-color: white;
     box-shadow: 0 1px 10px rgba(134, 134, 134, 0.299);
-    position: absolute;
+    position: sticky;
     top: 0;
     left: 0;
     
