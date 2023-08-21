@@ -10,12 +10,12 @@ const Navbar = () => {
 			<div className={styles.container}>
 				<img src="./images/Wages.png" alt="logo" id={styles.logo} />
 				<ul className={`${styles.menu} ${menuOpen ? styles.showitem : ""}`}>
-					<li>HOME</li>
+					<li><a href="/">HOME</a></li>
 					<li>PROVIDE A SERVICE</li>
 					<li>WORKS & SERVICES</li>
 				</ul>
 				<div className={styles.account}>
-					<a href="/">MY ACCOUNT</a>
+					<a href="/auth">MY ACCOUNT</a>
 				</div>
 				<img
 					src="./images/menu.png"

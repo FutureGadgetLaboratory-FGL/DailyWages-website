@@ -1,6 +1,5 @@
 .home {
-    position: absolute;
-    z-index: -1;
+    position: relative;
     height: 100%;
     width: 100vw;
     background-image: url('../../../public/images/background.jpg');

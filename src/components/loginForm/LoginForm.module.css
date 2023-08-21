@@ -1,8 +1,8 @@
-.login-container {
-    margin: 0 auto;
+.loginContainer {
+    margin: auto;
     height: 70vh;
     padding: 0;
-    width: 30vmax;
+    width: 90vmin;
     min-width: 400px;
     color: #4b4b4b;
     box-shadow: 0 5px 20px 5px #0000003e;
@@ -15,14 +15,14 @@
     background: #d3d3d3;
 }
 
-.auth-type {
+.authType {
     display: flex;
     justify-content: space-between;
     width: 100%;
     margin-top: 0px;
 }
 
-.auth-type button {
+.authType button {
     font-style: bold;
     flex: 1;
     padding: 10px;
@@ -33,12 +33,12 @@
     font-size: x-large;
 }
 
-.auth-form {
+.authForm {
     font-size: larger;
     padding: 5% 10%;
 }
 
-.auth-form input {
+.authForm input {
     outline: none;
     border-width: 0.05px;
     border-color: #b7b7b7;
@@ -49,32 +49,32 @@
     margin-bottom: 1.5em;
 }
 
-.mob-no-input {
+.mobNoInput {
     display: flex;
     align-items: center;
     width: 100%;
 }
 
-.mob-no-input input:nth-child(1) {
+.mobNoInput input:nth-child(1) {
     width: 3em;
     border-right: none;
     border-top-right-radius: 0;
     border-bottom-right-radius: 0;
 }
 
-.mob-no-input input:nth-child(2) {
+.mobNoInput input:nth-child(2) {
     border-left: none;
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
 }
 
-.login-options {
+.loginOptions {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.login-button {
+.loginButton {
     background-color: #3170E9;
     color: white;
     border: none;
@@ -86,7 +86,7 @@
     transition: background-color 0.3s ease;
 }
 
-.login-button:hover {
+.loginButton:hover {
     background-color: #2980b9;
 }
 
@@ -96,9 +96,9 @@
     margin: 20px 0;
 }
 
-.google-signin-button {
+.googleSigninButton {
     display: flex;
-    align-items: center;
+    justify-content: center;
     background-color: #ffffff;
     color: #030303;
     border: none;
@@ -110,8 +110,23 @@
     transition: background-color 0.3s ease;
 }
 
-.google-icon {
+.googleIcon {
     width: 30px;
     height: 30px;
     margin-right: 10px;
+}
+
+@media (max-width: 640px) {
+    .loginButton {
+        margin-top: 1rem;
+        width: 90%;
+    }
+
+    .googleSigninButton {
+        width: 90%;
+    }
+
+    .authForm input {
+        margin-bottom: 0.5em;
+    }
 }

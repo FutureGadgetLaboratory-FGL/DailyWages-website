@@ -5,10 +5,12 @@
 nav {
     width: 100vw;
     background-color: white;
+    height: 6vh;
     box-shadow: 0 1px 10px rgba(134, 134, 134, 0.299);
-    position: absolute;
+    position: sticky;
     top: 0;
     left: 0;
+    z-index: 100;
 
 }
 
@@ -115,15 +117,19 @@ nav {
 }
 
 @media only screen and (max-width: 700px) {
-    #logo {
-        height: 2.7rem;
+    nav {
+        height: 5vh;
     }
 
+    #logo {
+        height: 5vh;
+    }
+/* 
     .toggleMenu {
-        height: 15px;
+        height: 20px;
     }
 
     .accountIcon {
-        height: 20px;
-    }
+        height: 30px;
+    } */
 }
