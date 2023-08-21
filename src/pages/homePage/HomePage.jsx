@@ -7,8 +7,9 @@ const HomePage = () => {
 	return (
 		<>
 			<NavBar />
-			<div className={styles.home}></div>
-			<Hero />
+			<div className={styles.home}>
+				<Hero />
+			</div>
 			<Footer />
 		</>
 	);
